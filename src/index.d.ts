@@ -84,7 +84,7 @@ declare module 'geojson2svg' {
     /** function that will be called on every geojson conversion with output string as one input variable */
     callback?: (svgString: string) => void
 
-    coordinateCoverter?: (point: [x: number, y: number]) => [x: number, y: number]
+    coordinateConverter?: (point: [x: number, y: number]) => [x: number, y: number]
   }
 
   export default class GeoJSON2SVG {
